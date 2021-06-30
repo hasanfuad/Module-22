@@ -52,4 +52,11 @@ const totalNum = [num1, num2, num3];
 
 const allNum = Math.max(...totalNum)
 
-console.log(allNum);
+// console.log(allNum);
+
+const ar1 = ['name1', 'name2', 'name3', 'name4', 'name5'];
+const number1 = [20,30,36,43,73,90,23];
+
+const numberArr = [...ar1,'fuad', ...number1];
+
+// console.log(numberArr);
